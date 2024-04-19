@@ -8,7 +8,6 @@ namespace ChatTester
 {
     class ChatTesterView
     {
-        static string key = "sk-proj-29qWm4nG3Q7eVyytAgwWT3BlbkFJkAOOrWK3gUUu40p8uWfS";
         static async Task Main(string[] args)
         {
             string pre = "Na podstawie podanego przezemnie symulacyjnego zgłoszenia najpierw upewnij się najpierw czy to zgłoszenie jest poprawnym zgłoszeniem, jeżeli nie napisz poprostu Błędne zgłoszenie, jeżeli jest poprawne podaj kolejno w nastepnych punktach: " +
