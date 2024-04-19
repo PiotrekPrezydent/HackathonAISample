@@ -9,7 +9,7 @@ namespace Receiver.Views
             Console.WriteLine("Receiver start");
 
             string receivedString = await ServerView.AwaitStringFromPort(ServerView.ReceiverServerPort);
-            Console.WriteLine("Received String!");
+            Console.WriteLine("Received string!");
 
             Console.WriteLine(receivedString);
 

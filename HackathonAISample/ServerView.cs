@@ -124,7 +124,4 @@ namespace Server.Views
         }
 
     }
-
-
-
 }

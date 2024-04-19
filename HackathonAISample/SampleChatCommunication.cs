@@ -1,10 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Server
 {
@@ -41,11 +36,12 @@ namespace Server
 
                 //this sample api can only response 30 times, use this site to create new key if needed https://rapidapi.com/LuSrodri/api/texts-magic-api -> create organization -> use new organization -> get new key
                 //Not used keys:
-                //2172f9c88emsh1f2dc19b5827a5ap1f361ajsnd8fb95b0ee3b
                 //993b37ec7dmsh2060ff5d80f308fp13820djsn1e947185b1ab
+
+                //caba6da6d3mshbfa0cbfc5a27b56p1d6f8ajsn6d16064dae12 - this key was used couple of times for testing not full
                 Headers =
                 {
-                    { "X-RapidAPI-Key", "caba6da6d3mshbfa0cbfc5a27b56p1d6f8ajsn6d16064dae12" },
+                    { "X-RapidAPI-Key", "2172f9c88emsh1f2dc19b5827a5ap1f361ajsnd8fb95b0ee3b" },
                     { "X-RapidAPI-Host", "texts-magic-api.p.rapidapi.com" },
                 },
 
