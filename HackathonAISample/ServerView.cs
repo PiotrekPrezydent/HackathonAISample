@@ -30,10 +30,13 @@ namespace Server.Views
             if (!IsClientRequestValid(aiResponse))
             {
                 //debug
-                Console.WriteLine(aiResponse);
+                Console.WriteLine("Zapytanie do chat bota zostało okreslone jako niepoprawne, odpowiedz bota:\n" + aiResponse);
 
                 callback = "Zle podane zgłoszenie, niezostanie ono wyslane do odbiorcy";
                 SendBytesToPort(Encoding.ASCII.GetBytes(callback), ClientServerCallbackPort);
+
+                Console.WriteLine("Press enter to exit");
+                Console.ReadLine();
                 return;
             }
 
